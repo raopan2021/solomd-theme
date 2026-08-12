@@ -471,6 +471,25 @@ button:hover,
   background: transparent !important;
   border-color: rgba(103, 232, 185, 0.7) !important;
 }
+
+/* 主题市场按钮：恢复背景/文字，避免被全局 button 规则覆盖导致文字看不见 */
+.tm__btn {
+  background: var(--bg-elev) !important;
+  color: var(--text) !important;
+}
+.tm__btn--primary {
+  background: var(--accent) !important;
+  color: var(--accent-fg) !important;
+  border-color: var(--accent) !important;
+}
+.tm__btn--danger {
+  background: var(--bg-elev) !important;
+  color: var(--danger, #d64545) !important;
+}
+.tm__refresh {
+  background: transparent !important;
+  color: var(--text-muted) !important;
+}
 /* #endregion */
 
 /* #region 弹窗 */
