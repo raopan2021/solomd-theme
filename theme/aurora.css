@@ -150,7 +150,11 @@ body.rs-splitter--dragging {
 .inspector__head,
 .backlinks__head,
 .tags-panel__head,
+.agent-panel__cta,
+.agent-panel__empty,
 .agent-panel__head,
+.tags-panel__count,
+.tags-panel__btn,
 .history__head,
 .sp__head,
 .vpanel__header {
@@ -189,6 +193,18 @@ body.rs-splitter--dragging {
 /* —— 下：状态栏 —— */
 .statusbar {
   border-top: 1px solid rgba(103, 232, 185, 0.35) !important;
+}
+/* #endregion */
+
+/* #region 左侧文件树 */
+/* 文件树根目录/工作区切换按钮：透明背景 + 紫色边框（含 hover 状态覆盖源码） */
+.ftree__root,
+.ftree__root--open,
+.ftree__root--btn,
+.ftree__root--btn:hover,
+.ftree__root--open:hover {
+  border-color: var(--accent) !important;
+  background-color: color-mix(in srgb, var(--accent) 6%, transparent) !important;
 }
 /* #endregion */
 
@@ -413,24 +429,22 @@ body.rs-splitter--dragging .rs-splitter {
 /* #endregion */
 
 /* #region 按钮 */
-/* 通用按钮 */
-button,
+/*
+ * 注意：这里只用具体类（工具栏/文件树/窗口控制按钮），
+ * 不使用全局 button / .ds-btn 元素选择器，避免覆盖 SoloMD
+ * 内部按钮（弹窗、主题市场、确认框等）的背景导致文字看不见。
+ */
+/* 工具栏 / 窗口控制 / 文件树按钮：透明背景 + 极光 border */
 .icon-btn,
 .menubar__btn,
-.ds-btn,
-.ds-btn--subtle,
-.ds-btn--ghost,
-.win-controls__btn,
-.ftree__hbtn {
+.win-controls__btn {
   background: transparent !important;
   border: 1px solid rgba(103, 232, 185, 0.35) !important;
   border-radius: 6px;
 }
-/* 通用按钮 hover */
-button:hover,
+/* hover */
 .icon-btn:hover,
 .menubar__btn:hover,
-.ds-btn:hover,
 .win-controls__btn:hover {
   background: transparent !important;
   border-color: rgba(103, 232, 185, 0.6) !important;
@@ -446,66 +460,6 @@ button:hover,
 .toolbar .icon-btn:hover,
 .toolbar .menubar__btn:hover {
   border: none !important;
-}
-
-/* 左侧文件树内按钮：不要 border */
-.ftree button,
-.ftree .ftree__hbtn,
-.ftree .icon-btn {
-  border: none !important;
-}
-
-/* AI 相关按钮：更明显的极光色 border */
-.clean-ai-btn,
-.ai-rewrite-btn,
-.ai-settings__btn,
-.ai-settings__btn--primary {
-  background: transparent !important;
-  border: 1px solid rgba(103, 232, 185, 0.5) !important;
-}
-/* AI 按钮 hover：border 加深 */
-.clean-ai-btn:hover,
-.ai-rewrite-btn:hover,
-.ai-settings__btn:hover,
-.ai-settings__btn--primary:hover {
-  background: transparent !important;
-  border-color: rgba(103, 232, 185, 0.7) !important;
-}
-
-/* 主题市场按钮：恢复背景/文字，避免被全局 button 规则覆盖导致文字看不见 */
-.tm__btn {
-  background: var(--bg-elev) !important;
-  color: var(--text) !important;
-}
-.tm__btn--primary {
-  background: var(--accent) !important;
-  color: var(--accent-fg) !important;
-  border-color: var(--accent) !important;
-}
-.tm__btn--danger {
-  background: var(--bg-elev) !important;
-  color: var(--danger, #d64545) !important;
-}
-.tm__refresh {
-  background: transparent !important;
-  color: var(--text-muted) !important;
-}
-
-/* 主题市场筛选标签：明确背景/文字，避免覆盖导致看不见 */
-.tm__chip {
-  background: var(--bg-elev) !important;
-  color: var(--text) !important;
-  border-color: var(--border) !important;
-}
-.tm__chip:hover {
-  background: var(--bg-hover) !important;
-  color: var(--text) !important;
-  border-color: var(--accent) !important;
-}
-.tm__chip--active {
-  background: var(--accent) !important;
-  color: var(--accent-fg) !important;
-  border-color: var(--accent) !important;
 }
 /* #endregion */
 
