@@ -6,7 +6,7 @@
       "name": "极光 Aurora",
       "author": "raopan",
       "description": "深邃夜空底 + 角落极光绿/冰蓝/紫光晕，多层渐变背景，梦幻浪漫的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/aurora.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/aurora.css",
       "tags": ["dark", "aurora", "gradient"],
       "license": "MIT"
     },
@@ -15,7 +15,7 @@
       "name": "深蓝 Deep Blue",
       "author": "raopan",
       "description": "深海军蓝深渊背景，蓝/青强调色，冷静专注的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/deep-blue.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/deep-blue.css",
       "tags": ["dark", "cool", "blue"],
       "license": "MIT"
     },
@@ -24,7 +24,7 @@
       "name": "深绿 Deep Green",
       "author": "raopan",
       "description": "深松绿背景，叶绿/金黄强调色，如森林般宁静自然的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/deep-green.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/deep-green.css",
       "tags": ["dark", "nature", "green"],
       "license": "MIT"
     },
@@ -33,7 +33,7 @@
       "name": "深紫 Deep Purple",
       "author": "raopan",
       "description": "深靛蓝夜空背景，品红/紫强调色，梦幻且略带戏剧性的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/deep-purple.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/deep-purple.css",
       "tags": ["dark", "purple"],
       "license": "MIT"
     },
@@ -42,7 +42,7 @@
       "name": "冰蓝 Frost Blue",
       "author": "raopan",
       "description": "基于经典 Nord 色板，冰蓝强调色，安静均衡护眼的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/frost-blue.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/frost-blue.css",
       "tags": ["dark", "cool", "nord"],
       "license": "MIT"
     },
@@ -51,7 +51,7 @@
       "name": "石墨灰 Graphite Gray",
       "author": "raopan",
       "description": "克制的高级冷灰，低饱和耐看，雾蓝点缀的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/graphite-gray.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/graphite-gray.css",
       "tags": ["dark", "minimal", "gray"],
       "license": "MIT"
     },
@@ -60,7 +60,7 @@
       "name": "墨蓝 Ink Blue",
       "author": "raopan",
       "description": "沉稳的墨色蓝调，微带青绿，如深夜书房般静谧专注的暗色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/ink-blue.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/ink-blue.css",
       "tags": ["dark", "cool", "ink"],
       "license": "MIT"
     },
@@ -69,7 +69,7 @@
       "name": "玫瑰粉 Rose Pink",
       "author": "raopan",
       "description": "温柔腮红底色，玫瑰/李子色强调，温暖通透优雅的浅色主题。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/rose-pink.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/rose-pink.css",
       "tags": ["light", "warm", "pink"],
       "license": "MIT"
     },
@@ -78,7 +78,7 @@
       "name": "新拟态 Soft UI",
       "author": "raopan",
       "description": "Neumorphism 新拟态，同色系背景 + 内外柔和阴影，营造凸起/凹陷的立体质感。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/soft-ui.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/soft-ui.css",
       "tags": ["light", "soft", "neumorphism"],
       "license": "MIT"
     },
@@ -87,7 +87,7 @@
       "name": "VSCode Modern",
       "author": "raopan",
       "description": "参照 VSCode 默认 Dark Modern / Light Modern 官方配色，还原经典语法高亮。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/vscode.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/vscode.css",
       "tags": ["dark", "light", "vscode"],
       "license": "MIT"
     },
@@ -96,7 +96,7 @@
       "name": "暖沙 Warm Sand",
       "author": "raopan",
       "description": "沙色底配蓝/绿强调色，经典 Solarized 浅色系的极佳可读性。",
-      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/warm-sand.css",
+      "url": "https://raw.githubusercontent.com/raopan2021/solomd-theme/main/theme/warm-sand.css",
       "tags": ["light", "warm", "solarized"],
       "license": "MIT"
     }
