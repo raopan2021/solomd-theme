@@ -490,6 +490,23 @@ button:hover,
   background: transparent !important;
   color: var(--text-muted) !important;
 }
+
+/* 主题市场筛选标签：明确背景/文字，避免覆盖导致看不见 */
+.tm__chip {
+  background: var(--bg-elev) !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+.tm__chip:hover {
+  background: var(--bg-hover) !important;
+  color: var(--text) !important;
+  border-color: var(--accent) !important;
+}
+.tm__chip--active {
+  background: var(--accent) !important;
+  color: var(--accent-fg) !important;
+  border-color: var(--accent) !important;
+}
 /* #endregion */
 
 /* #region 弹窗 */
